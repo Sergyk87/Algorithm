@@ -3,7 +3,7 @@ import java.util.Arrays;
 
 public class ex2 {
     public static void main(String[] args) {
-        int size = 100000;
+        int size = 10000;
         int min = 0;
         int max = 100;
         // int[] array = ex1.getRandomArr(size, min, max);
@@ -24,7 +24,7 @@ public class ex2 {
         long start3 = new Date().getTime();
         Arrays.sort(array.clone());
         long end3 = new Date().getTime();
-        System.out.println(end3 - start3);
+        System.out.println(end3 - start3);  
 
     }
 
